@@ -154,7 +154,7 @@ static inline __attribute__((const)) NJOPasswordStrength NJOPasswordStrengthForE
             failingRules:(out NSArray *__autoreleasing *)rules
 {
     NSArray *failingRules = [self.rules filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id <NJOPasswordRule> rule, NSDictionary *bindings) {
-        return [rule evaluateWithString:password];
+        return [rule[0] evaluateWithString:password];
     }]];
 
     if (rules) {
