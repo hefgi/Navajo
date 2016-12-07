@@ -121,7 +121,7 @@ static inline __attribute__((const)) NJOPasswordStrength NJOPasswordStrengthForE
         case NJOWeakPasswordStrength:
             return NSLocalizedStringFromTable(@"Weak Password", @"Navajo", nil);
         case NJOReasonablePasswordStrength:
-            return NSLocalizedStringFromTable(@"Reasonable Password", @"Navajo", nil);
+            return NSLocalizedStringFromTable(@"Acceptable Password", @"Navajo", nil);
         case NJOStrongPasswordStrength:
             return NSLocalizedStringFromTable(@"Strong Password", @"Navajo", nil);
         case NJOVeryStrongPasswordStrength:
