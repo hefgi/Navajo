@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Navajo'
   s.requires_arc = true
 
-  s.osx.frameworks = "CoreServices"
+  s.osx.frameworks = 'CoreServices', 'Foundation', 'UIKit'
 
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
