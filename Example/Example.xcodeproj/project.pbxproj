@@ -8,48 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B23ECD861E0C05F3001C42AF /* Navajo.h in Headers */ = {isa = PBXBuildFile; fileRef = B23ECD841E0C05F3001C42AF /* Navajo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B23ECD891E0C05F3001C42AF /* Navajo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23ECD821E0C05F3001C42AF /* Navajo.framework */; };
-		B23ECD8A1E0C05F3001C42AF /* Navajo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B23ECD821E0C05F3001C42AF /* Navajo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B23ECD8F1E0C0604001C42AF /* NJOPasswordStrengthEvaluator.h in Sources */ = {isa = PBXBuildFile; fileRef = F8E7A9EB18C531AE00D35EEC /* NJOPasswordStrengthEvaluator.h */; };
 		B23ECD901E0C0604001C42AF /* NJOPasswordStrengthEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7A9EC18C531AE00D35EEC /* NJOPasswordStrengthEvaluator.m */; };
 		B23ECD911E0C0668001C42AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E7A9BC18C530DC00D35EEC /* CoreGraphics.framework */; };
 		B23ECD921E0C0673001C42AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E7A9BE18C530DC00D35EEC /* UIKit.framework */; };
 		B23ECD931E0C0677001C42AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E7A9BA18C530DC00D35EEC /* Foundation.framework */; };
-		F8DC5D8618C64DE300D69DD8 /* PasswordEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DC5D8418C64DE300D69DD8 /* PasswordEvaluationViewController.m */; };
-		F8DC5D8718C64DE300D69DD8 /* PasswordEvaluationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8DC5D8518C64DE300D69DD8 /* PasswordEvaluationViewController.xib */; };
-		F8E7A9BB18C530DC00D35EEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E7A9BA18C530DC00D35EEC /* Foundation.framework */; };
-		F8E7A9BD18C530DC00D35EEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E7A9BC18C530DC00D35EEC /* CoreGraphics.framework */; };
-		F8E7A9BF18C530DC00D35EEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E7A9BE18C530DC00D35EEC /* UIKit.framework */; };
-		F8E7A9C518C530DC00D35EEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8E7A9C318C530DC00D35EEC /* InfoPlist.strings */; };
-		F8E7A9C718C530DC00D35EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7A9C618C530DC00D35EEC /* main.m */; };
-		F8E7A9CB18C530DC00D35EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7A9CA18C530DC00D35EEC /* AppDelegate.m */; };
-		F8E7A9CD18C530DC00D35EEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E7A9CC18C530DC00D35EEC /* Images.xcassets */; };
-		F8E7A9ED18C531AE00D35EEC /* NJOPasswordStrengthEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7A9EC18C531AE00D35EEC /* NJOPasswordStrengthEvaluator.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B23ECD871E0C05F3001C42AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F8E7A9AF18C530DC00D35EEC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B23ECD811E0C05F3001C42AF;
-			remoteInfo = Navajo;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B23ECD8E1E0C05F3001C42AF /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B23ECD8A1E0C05F3001C42AF /* Navajo.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B23ECD821E0C05F3001C42AF /* Navajo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Navajo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +22,6 @@
 		F8DC5D8318C64DE300D69DD8 /* PasswordEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordEvaluationViewController.h; sourceTree = "<group>"; };
 		F8DC5D8418C64DE300D69DD8 /* PasswordEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordEvaluationViewController.m; sourceTree = "<group>"; };
 		F8DC5D8518C64DE300D69DD8 /* PasswordEvaluationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordEvaluationViewController.xib; sourceTree = "<group>"; };
-		F8E7A9B718C530DC00D35EEC /* Navajo Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navajo Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E7A9BA18C530DC00D35EEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8E7A9BC18C530DC00D35EEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F8E7A9BE18C530DC00D35EEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -82,17 +45,6 @@
 				B23ECD931E0C0677001C42AF /* Foundation.framework in Frameworks */,
 				B23ECD921E0C0673001C42AF /* UIKit.framework in Frameworks */,
 				B23ECD911E0C0668001C42AF /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8E7A9B418C530DC00D35EEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8E7A9BD18C530DC00D35EEC /* CoreGraphics.framework in Frameworks */,
-				F8E7A9BF18C530DC00D35EEC /* UIKit.framework in Frameworks */,
-				F8E7A9BB18C530DC00D35EEC /* Foundation.framework in Frameworks */,
-				B23ECD891E0C05F3001C42AF /* Navajo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +74,6 @@
 		F8E7A9B818C530DC00D35EEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8E7A9B718C530DC00D35EEC /* Navajo Example.app */,
 				B23ECD821E0C05F3001C42AF /* Navajo.framework */,
 			);
 			name = Products;
@@ -214,25 +165,6 @@
 			productReference = B23ECD821E0C05F3001C42AF /* Navajo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F8E7A9B618C530DC00D35EEC /* Navajo Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8E7A9E318C530DC00D35EEC /* Build configuration list for PBXNativeTarget "Navajo Example" */;
-			buildPhases = (
-				F8E7A9B318C530DC00D35EEC /* Sources */,
-				F8E7A9B418C530DC00D35EEC /* Frameworks */,
-				F8E7A9B518C530DC00D35EEC /* Resources */,
-				B23ECD8E1E0C05F3001C42AF /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B23ECD881E0C05F3001C42AF /* PBXTargetDependency */,
-			);
-			name = "Navajo Example";
-			productName = "Navajo Example";
-			productReference = F8E7A9B718C530DC00D35EEC /* Navajo Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -245,9 +177,6 @@
 					B23ECD811E0C05F3001C42AF = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
-					};
-					F8E7A9B618C530DC00D35EEC = {
-						DevelopmentTeam = BSXLNP33Y2;
 					};
 				};
 			};
@@ -263,7 +192,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8E7A9B618C530DC00D35EEC /* Navajo Example */,
 				B23ECD811E0C05F3001C42AF /* Navajo */,
 			);
 		};
@@ -274,16 +202,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8E7A9B518C530DC00D35EEC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8DC5D8718C64DE300D69DD8 /* PasswordEvaluationViewController.xib in Resources */,
-				F8E7A9C518C530DC00D35EEC /* InfoPlist.strings in Resources */,
-				F8E7A9CD18C530DC00D35EEC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,26 +217,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8E7A9B318C530DC00D35EEC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8E7A9CB18C530DC00D35EEC /* AppDelegate.m in Sources */,
-				F8E7A9C718C530DC00D35EEC /* main.m in Sources */,
-				F8E7A9ED18C531AE00D35EEC /* NJOPasswordStrengthEvaluator.m in Sources */,
-				F8DC5D8618C64DE300D69DD8 /* PasswordEvaluationViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B23ECD881E0C05F3001C42AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B23ECD811E0C05F3001C42AF /* Navajo */;
-			targetProxy = B23ECD871E0C05F3001C42AF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F8E7A9C318C530DC00D35EEC /* InfoPlist.strings */ = {
@@ -477,50 +376,6 @@
 			};
 			name = Release;
 		};
-		F8E7A9E418C530DC00D35EEC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Navajo Example/Prefix.pch";
-				INFOPLIST_FILE = "Navajo Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				WARNING_CFLAGS = (
-					"-Weverything",
-					"-Wno-objc-missing-property-synthesis",
-				);
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		F8E7A9E518C530DC00D35EEC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Navajo Example/Prefix.pch";
-				INFOPLIST_FILE = "Navajo Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				WARNING_CFLAGS = (
-					"-Weverything",
-					"-Wno-objc-missing-property-synthesis",
-				);
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -531,21 +386,13 @@
 				B23ECD8C1E0C05F3001C42AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8E7A9B218C530DC00D35EEC /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8E7A9E118C530DC00D35EEC /* Debug */,
 				F8E7A9E218C530DC00D35EEC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8E7A9E318C530DC00D35EEC /* Build configuration list for PBXNativeTarget "Navajo Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8E7A9E418C530DC00D35EEC /* Debug */,
-				F8E7A9E518C530DC00D35EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
